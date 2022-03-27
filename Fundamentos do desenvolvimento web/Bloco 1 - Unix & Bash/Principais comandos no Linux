@@ -1,0 +1,16 @@
+"mkdir" --> cria um diretório
+"rmdir" --> exclui um diretório
+"ls" --> lista os arquivos em um diretório
+"cd" --> muda para o diretório inicial
+"cd nome do diretório" --> muda para o diretório nomeado
+"cd.." --> muda para o diretório pai
+"cp arquivo1 arquivo2" --> copia o arquivo1 e o chama de arquivo2
+"rm nome do arquivo" --> remove um arquivo
+"cat nome do arquivo" --> exibe arquivo
+"tail nome do arquivo" --> exibe as últimas linhas de um arquivo
+"grep 'palavra-chave' arquivo" --> procura por palavra-chave no arquivo
+"mv nome do arquivo" --> permite renomear um arquivo
+"ctrl d" --> fecha outros comandos
+"ls -l" --> lista usuário, grupo de usuários, dia, mês de última atualização
+"ctrl z" --> permite suspender o processo acionado anteriormente
+  
