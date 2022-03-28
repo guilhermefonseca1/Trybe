@@ -13,4 +13,4 @@
 "ctrl d" --> fecha outros comandos
 "ls -l" --> lista usuário, grupo de usuários, dia, mês de última atualização
 "ctrl z" --> permite suspender o processo acionado anteriormente
-  
+"ctrl l" --> limpa a tela do terminal
