@@ -3,15 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <title>HTML</title>
+    <link rel="stylesheet" type="text/css" href="style.css.html">
     <style>
         h1 {
             font-size: 50px;
+            text-align: center;
+            text-decoration: underline;
         }
         h2 {
             color: green
+           
         }
         body {
         background-color:rgb(255, 400, 200);
+         
         }
         #extinct-specie {
         background-color: white;
@@ -22,13 +27,25 @@
         .list-style {
             background-color: yellow;
             color: white;
+            font-weight: bold;
         }
+        .list-style2 {
+          font-weight: bold;
+          font-style: italic;
+          line-height: 40px;
+        }
+        p{
+          font-family: sans-serif;
+        }
+       div {
+        text-align: center;
+       } 
     </style>
   </head>
   <body>
     <h1>Tudo sobre Girassóis</h1>
     
-    <img src="https://i0.wp.com/virusdaarte.net/wp-content/uploads/2013/11/papagaio123.png">
+   <div> <img src="https://i0.wp.com/virusdaarte.net/wp-content/uploads/2013/11/papagaio123.png"></div>
     <h2 id="description">Descrição</h2>
     <p id="extinct-specie">A vida é um ciclo, somos todos girassóis</p>
 
@@ -68,7 +85,7 @@ Ah se gira!
       <li>Laranja</li>
     </ul>
   <h3>Regiões de cultivo</h3>
-  <ol list-style>
+  <ol class = "list-style2">
       <li>Minas Gerais</li>
       <li>São Paulo</li>
       <li>Rio de Janeiro</li>
