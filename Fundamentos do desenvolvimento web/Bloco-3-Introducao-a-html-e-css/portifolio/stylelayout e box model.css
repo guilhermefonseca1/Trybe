@@ -1,0 +1,29 @@
+h1 {
+    font-size: 40px;
+    color: #FCFDFD;
+}
+body {
+  font-family: arial;  
+  background-color: #20D2BB;
+}
+#redonda {
+    border-radius: 50%;
+}
+#css {
+    float: left;  
+    height: 620px;
+}
+.conteudo {
+    display: table;
+}
+.imagem {
+    display: table-cell;
+    float: left;
+}
+.texto {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
