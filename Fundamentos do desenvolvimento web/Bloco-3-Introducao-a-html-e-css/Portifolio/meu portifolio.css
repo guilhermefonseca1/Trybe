@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    width: 960px;
+    margin: auto;
+}
+header, nav, article, aside, section, footer{
+    font-family: arial;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+span {
+    color: white;
+}
+header {
+    background-color: blue;
+    min-height: 60px;
+    min-width: 960px;
+}
+nav {
+    background-color: red;
+    height: 60px;
+    width: 960px;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+aside {
+    background-color: red;
+    height: 500px;
+    width: 350px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    float: right;
+}
+article {
+    background-color: bisque;
+    height: 500px;
+    width: 600px;
+    margin-top: -515px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    float:left;
+}
+section {
+    background-color: black;
+    height: 250px;
+    width: 560px;
+    margin-top: 210px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    float:left;
+}
+footer {
+    background-color: blanchedalmond;
+    height: 50px;
+    width: 960px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    float: left;
+}
