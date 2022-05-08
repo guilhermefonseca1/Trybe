@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.mes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+h1  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.month-container {
+    color: white;
+    background-color: black;
+}
+
+ #month {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+  
+ #year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .semana {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+.diasDaSemana {
+    width: 80px;
+    border: 1px solid black;
+    width: 573px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.divBoardNomeSemana {
+    width: 80px;
+    border: 1px solid black;
+    color: white;
+    background-color: blue;
+    flex-direction: row; 
+    
+}
+
+.divBoard {
+    width: 80px;
+    height: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+}
+
+.calendario {
+    display: flex;
+    flex-wrap: wrap;
+    width: 620px;
+    height: 200px;
+    justify-content: center;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
