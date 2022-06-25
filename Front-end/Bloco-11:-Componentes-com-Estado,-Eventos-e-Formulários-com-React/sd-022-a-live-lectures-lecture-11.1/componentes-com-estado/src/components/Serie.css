@@ -1,0 +1,27 @@
+article {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Tahoma;
+}
+
+section img {
+  max-width: 100%;
+  display: block;
+  font-size: 0;
+  margin-bottom: 8px;
+}
+
+article section {
+  padding: 12px;
+  max-width: 300px;
+  border-radius: 8px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  box-shadow: #333 2px 1px 10px;
+}
+
+ul {
+  margin-left: 16px;
+  color: white;
+  list-style-type: none;
+}
